@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Morpion4x4Activity">
+
+    <!-- Titre du jeu -->
+
+    <!-- Statut du joueur -->
+
+    <!-- Grille 4x4 -->
+
+    <!-- Bouton Rejouer -->
+
+    <!-- Bouton Menu -->
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="321dp"
+        android:layout_height="351dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676">
+
+        <!-- Chaque TableRow contient 4 boutons -->
+        <TableRow>
+
+            <Button
+                android:id="@+id/pion0"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/pion4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion6"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion7"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/pion8"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion9"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion10"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion11"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/pion12"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion13"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion14"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+
+            <Button
+                android:id="@+id/pion15"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/joueurStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Joueur 1 joue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <TextView
+        android:id="@+id/idJoueur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Morpion 4x4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRejouer"
+        android:layout_width="119dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:text="Rejouer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="156dp"
+        android:layout_height="67dp"
+        android:text="Menu Principal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
